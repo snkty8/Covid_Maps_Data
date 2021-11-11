@@ -1,4 +1,5 @@
-[
+var data = [
+    [
     {
         "Country/Region": "Afghanistan",
         "Latitude": 33.93911,
@@ -7560,3 +7561,4 @@
         "Oct_2021": 4495692
     }
 ]
+];
