@@ -1,15 +1,2 @@
-function init() {
-    var selector = d3.select("#selDataset");
-  
-    d3.json("../Resources/sum_counts_per_mounts.json").then((data) => {
-      console.log(data);
-      var countryNames = data.Country/Region;
-      sampleNames.forEach((sample) => {
-        selector
-          .append("option")
-          .text(sample)
-          .property("value", sample);
-      });
-  })}
-  
-  init();
+var json = require('/Users/snkty/OneDrive/Desktop/Respositories/Covid_Maps_Data/Resources/sum_counts_per_months.json'); //(with path)
+console.log(json)
