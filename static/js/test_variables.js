@@ -27,3 +27,23 @@ let oct2020 = data[0].map(row => row.Oct_2020)
 let nov2020 = data[0].map(row => row.Nov_2020)
 
 let dec2020 = data[0].map(row => row.Dec_2020)
+
+let jan2021 = data[0].map(row => row.Jan_2021)
+
+let feb2021 = data[0].map(row => row.Feb_2021)
+
+let march2021 = data[0].map(row => row.March_2021)
+
+let april2021 = data[0].map(row => row.April_2021)
+
+let may2021 = data[0].map(row => row.May_2021)
+
+let june2021 = data[0].map(row => row.June_2021)
+
+let july2021 = data[0].map(row => row.July_2021)
+
+let aug2021 = data[0].map(row => row.Aug_2021)
+
+let sep2021 = data[0].map(row => row.Sep_2021)
+
+let oct2021 = data[0].map(row => row.Oct_2021)
