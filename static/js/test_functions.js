@@ -3,7 +3,7 @@ function myFunction() {
   }
   
   function filterFunction() {
-    var input, filter, ul, li, a, i;
+    let input, filter, ul, li, a, i;
     input = document.getElementById("myInput");
     filter = input.value.toUpperCase();
     div = document.getElementById("myDropdown");
@@ -17,4 +17,18 @@ function myFunction() {
       }
     }
   }
+
+// Close the dropdown menu if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    let dropdowns = document.getElementsByClassName("myDropdown");
+    let i;
+    for (i = 0; i < dropdowns.length; i++) {
+      let openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
   
