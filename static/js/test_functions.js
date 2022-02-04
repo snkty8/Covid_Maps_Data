@@ -1,3 +1,4 @@
+// Show names of countries in dropdown 
 function myFunction() {
     document.getElementById("myDropdown").classList.toggle("show");
   }
