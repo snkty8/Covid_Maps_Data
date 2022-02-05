@@ -13,6 +13,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="static/css/style.css">
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 </head>
 <body>
     <div id="map"></div>
@@ -214,7 +215,7 @@
         <a href="#Zimbabwe">Zimbabwe</a>
 
 
-
+        <div id="graph"></div>
 
 
       </div>
@@ -225,7 +226,7 @@
         <div id="myPlot"></div>
     <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
     <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap&v=weekly" async></script>
+    <!-- <script src="https://maps.googleapis.com/maps/api/js?key=APIKey&callback=initMap&v=weekly" async></script> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>    
     <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
     <script src='Resources/sum_counts_per_months.json'></script>
