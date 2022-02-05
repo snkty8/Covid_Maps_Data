@@ -33,3 +33,4 @@ function myFunction() {
 //   }
 // }
   
+console.log(countryRegion[0])
