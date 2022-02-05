@@ -1,17 +1,16 @@
 // Define Data
 let data1 = [{
     x: countryRegion,
-    y: jan2020,
-    // mode: "lines",
-    type: "scatter"
+    y: jan2021,
+    type: "bar"
   }];
   
 let layout = {
-  width: 1200,
-  height: 1200
+  width: 2500,
+  height: 500
 }
   // Display using Plotly
   Plotly.newPlot("myPlot", data1, layout);
-  
-
-console.log(countryRegion[0])
+ 
+console.log(countryRegion[45])
+console.log(jan2021[45])
