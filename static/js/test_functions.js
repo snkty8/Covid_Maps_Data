@@ -64,6 +64,34 @@ let monthValueColumns = [
   sep2021, 
   oct2021]
 
+  const transposedMonthValueCoulmns = transpose(monthValueColumns)
+  const Afghanistan1 = transposedMonthValueCoulmns[0]
+  const Albania = transposedMonthValueCoulmns[1]
+  const Algeria = transposedMonthValueCoulmns[2]
+  const Andorra = transposedMonthValueCoulmns[3]
+  const Angola = transposedMonthValueCoulmns[4]
+  const AntiguaandBarbuda = transposedMonthValueCoulmns[5]
+  const Argentina = transposedMonthValueCoulmns[6]
+  const Armenia = transposedMonthValueCoulmns[7]
+  
+  const Australia = transposedMonthValueCoulmns[8]
+  const Australia2 = transposedMonthValueCoulmns[9]
+  const Australia3 = transposedMonthValueCoulmns[10]
+  const Australia4 = transposedMonthValueCoulmns[11]
+  const Australia5 = transposedMonthValueCoulmns[12]
+  const Australia6 = transposedMonthValueCoulmns[13]
+  const Australia7 = transposedMonthValueCoulmns[14]
+  const Australia8 = transposedMonthValueCoulmns[15]
+  
+  const Austria = transposedMonthValueCoulmns[16]
+  const Azerbaijan = transposedMonthValueCoulmns[17]
+  const Bahamas = transposedMonthValueCoulmns[18]
+  const Bahrain = transposedMonthValueCoulmns[19]
+  const Bangladesh = transposedMonthValueCoulmns [20]
+  const Barbados = transposedMonthValueCoulmns[21]
+  const Belarus = transposedMonthValueCoulmns[22]
+  
+  
 
 
 // Plots functuion
@@ -88,5 +116,3 @@ function getPlot(country) {
 
 
 
-const transposedMonthValueCoulmns = transpose(monthValueColumns)
-console.log(transposedMonthValueCoulmns[3])

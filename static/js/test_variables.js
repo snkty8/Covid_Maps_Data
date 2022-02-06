@@ -49,18 +49,18 @@ let sep2021 = data[0].map(row => row.Sep_2021)
 let oct2021 = data[0].map(row => row.Oct_2021)
 
 // Each countries yearly covid numbers but month
-let Afghanistan1 = []
-Afghanistan1.push(jan2020[0], feb2020[0], march2020[0], april2020[0], may2020[0], june2020[0], july2020[0], aug2020[0], sep2020[0], oct2020[0], nov2020[0], dec2020[0],jan2021[0], feb2021[0], march2021[0], april2021[0], may2021[0], june2021[0], july2021[0], aug2021[0], sep2021[0], oct2021[0])
+// let Afghanistan1 = []
+// Afghanistan1.push(jan2020[0], feb2020[0], march2020[0], april2020[0], may2020[0], june2020[0], july2020[0], aug2020[0], sep2020[0], oct2020[0], nov2020[0], dec2020[0],jan2021[0], feb2021[0], march2021[0], april2021[0], may2021[0], june2021[0], july2021[0], aug2021[0], sep2021[0], oct2021[0])
 
-let Albania = []
-Albania.push(jan2020[1], feb2020[1], march2020[1], april2020[1], may2020[1], june2020[1], july2020[1], aug2020[1], sep2020[1], oct2020[1], nov2020[1], dec2020[1],jan2021[1], feb2021[1], march2021[1], april2021[1], may2021[1], june2021[1], july2021[1], aug2021[1], sep2021[1], oct2021[1])
+// let Albania = []
+// Albania.push(jan2020[1], feb2020[1], march2020[1], april2020[1], may2020[1], june2020[1], july2020[1], aug2020[1], sep2020[1], oct2020[1], nov2020[1], dec2020[1],jan2021[1], feb2021[1], march2021[1], april2021[1], may2021[1], june2021[1], july2021[1], aug2021[1], sep2021[1], oct2021[1])
 
-let Algeria = []
-Algeria.push(jan2020[2], feb2020[2], march2020[2], april2020[2], may2020[2], june2020[2], july2020[2], aug2020[2], sep2020[2], oct2020[2], nov2020[2], dec2020[2],jan2021[2], feb2021[2], march2021[2], april2021[2], may2021[2], june2021[2], july2021[2], aug2021[2], sep2021[3], oct2021[2])
+// let Algeria = []
+// Algeria.push(jan2020[2], feb2020[2], march2020[2], april2020[2], may2020[2], june2020[2], july2020[2], aug2020[2], sep2020[2], oct2020[2], nov2020[2], dec2020[2],jan2021[2], feb2021[2], march2021[2], april2021[2], may2021[2], june2021[2], july2021[2], aug2021[2], sep2021[3], oct2021[2])
 
-let Andorra = []
-Andorra.push(jan2020[3], feb2020[3], march2020[3], april2020[3], may2020[3], june2020[3], july2020[3], aug2020[3], sep2020[3], oct2020[3], nov2020[3], dec2020[3],jan2021[3], feb2021[3], march2021[3], april2021[3], may2021[3], june2021[3], july2021[3], aug2021[3], sep2021[3], oct2021[3])
+// let Andorra = []
+// Andorra.push(jan2020[3], feb2020[3], march2020[3], april2020[3], may2020[3], june2020[3], july2020[3], aug2020[3], sep2020[3], oct2020[3], nov2020[3], dec2020[3],jan2021[3], feb2021[3], march2021[3], april2021[3], may2021[3], june2021[3], july2021[3], aug2021[3], sep2021[3], oct2021[3])
 
-let Angola = []
-Angola.push(jan2020[4], feb2020[4], march2020[4], april2020[4], may2020[4], june2020[4], july2020[4], aug2020[4], sep2020[4], oct2020[4], nov2020[4], dec2020[4],jan2021[4], feb2021[4], march2021[4], april2021[4], may2021[4], june2021[4], july2021[4], aug2021[4], sep2021[4], oct2021[4])
+// let Angola = []
+// Angola.push(jan2020[4], feb2020[4], march2020[4], april2020[4], may2020[4], june2020[4], july2020[4], aug2020[4], sep2020[4], oct2020[4], nov2020[4], dec2020[4],jan2021[4], feb2021[4], march2021[4], april2021[4], may2021[4], june2021[4], july2021[4], aug2021[4], sep2021[4], oct2021[4])
 
