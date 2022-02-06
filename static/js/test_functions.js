@@ -34,5 +34,30 @@ function myFunction() {
 // }
 
 
-
+// Plots functuion
+function getPlot(country) {
+  let data1 = [{
+    // Afghanistan
+    x: ['Jan2020', 'Feb2020', 'March2020', 'April2020', 'May2020', 'June2020', 'July2020', 'August2020', 'Sept2020', 'Oct2020', 'Nov2020', 'Dec2020', 'Jan2021', 'Feb2021', 'March2021','April2021', 'May2021','June2021', 'July2021', 'Aug2021', 'Sept2021', 'Oct2021'],
+    y: country,
+    type: "bar"
+  }];
   
+  let layout = {
+  // width: 2500,
+  // height: 500
+  }
+  // Display using Plotly
+  Plotly.newPlot("myPlot", data1, layout);
+}  
+
+function AppendArray(arr1, arr2){
+  for (i=0 ; i<jan2020.length ;i++){ 
+  } 
+  arr1.push(jan2020[i], feb2020[i])
+  return arr1;
+}
+
+let guess = AppendArray(jan2020, feb2020)
+console.log(guess)
+
