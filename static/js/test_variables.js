@@ -63,3 +63,4 @@ Andorra.push(jan2020[3], feb2020[3], march2020[3], april2020[3], may2020[3], jun
 
 let Angola = []
 Angola.push(jan2020[4], feb2020[4], march2020[4], april2020[4], may2020[4], june2020[4], july2020[4], aug2020[4], sep2020[4], oct2020[4], nov2020[4], dec2020[4],jan2021[4], feb2021[4], march2021[4], april2021[4], may2021[4], june2021[4], july2021[4], aug2021[4], sep2021[4], oct2021[4])
+

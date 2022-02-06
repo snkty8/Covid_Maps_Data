@@ -33,6 +33,38 @@ function myFunction() {
 //   }
 // }
 
+// Function that makes rows to colums.  Easier to grab the Covid month ticks
+function transpose(a) {
+  return Object.keys(a[0]).map(function(c) {
+      return a.map(function(r) { return r[c]; });
+  });
+}
+
+let monthValueColumns = [
+  jan2020,
+  feb2020,
+  march2020,
+  april2020,
+  may2020, 
+  jan2020, 
+  july2020, 
+  aug2020, 
+  sep2020,
+  oct2020, 
+  nov2020, 
+  dec2020, 
+  jan2021, 
+  feb2021, 
+  march2021, 
+  april2021, 
+  may2021, 
+  june2021, 
+  july2021, 
+  aug2021, 
+  sep2021, 
+  oct2021]
+
+
 
 // Plots functuion
 function getPlot(country) {
@@ -53,13 +85,8 @@ function getPlot(country) {
 
 
 
-function transpose(a) {
-  return Object.keys(a[0]).map(function(c) {
-      return a.map(function(r) { return r[c]; });
-  });
-}
 
-let newTry = [jan2020,feb2020,march2020]
 
-let secTry = transpose(newTry)
-console.log(secTry[0])
+
+const transposedMonthValueCoulmns = transpose(monthValueColumns)
+console.log(transposedMonthValueCoulmns[3])
