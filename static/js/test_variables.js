@@ -47,3 +47,9 @@ let aug2021 = data[0].map(row => row.Aug_2021)
 let sep2021 = data[0].map(row => row.Sep_2021)
 
 let oct2021 = data[0].map(row => row.Oct_2021)
+
+// Each countries yearly covid numbers but month
+let Afghanistan1 = []
+Afghanistan1.push(jan2020[0], feb2020[0], march2020[0], april2020[0], may2020[0], june2020[0], july2020[0], aug2020[0], sep2020[0], oct2020[0], nov2020[0], dec2020[0],jan2021[0], feb2021[0], march2021[0], april2021[0], may2021[0], june2021[0], july2021[0], aug2021[0], sep2021[0], oct2021[0])
+console.log(Afghanistan1)
+console.log(countryRegion[0])
