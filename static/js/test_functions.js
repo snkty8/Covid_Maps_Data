@@ -51,13 +51,15 @@ function getPlot(country) {
   Plotly.newPlot("myPlot", data1, layout);
 }  
 
-function getMonths(arr1, arr2) {
-  arry = []
-  for (let i = 0; i < arry.length; i++) {
-    arry[i] = [jan2020[i], feb2020[i]]
-  }
-  console.log(arry);  
+
+
+function transpose(a) {
+  return Object.keys(a[0]).map(function(c) {
+      return a.map(function(r) { return r[c]; });
+  });
 }
 
-let newTop = getMonths(jan2020, feb2020)
-console.log(newTop)
+let newTry = [jan2020,feb2020,march2020]
+
+let secTry = transpose(newTry)
+console.log(secTry[0])
