@@ -7,8 +7,6 @@
         "Feb_2020": 25,
         "March_2020": 1141,
         "April_2020": 25152,
-        "May_2020": 222720,
-        "June_2020": 751685,
         "July_2020": 1079412,
         "Aug_2020": 1165099,
         "Sep_2020": 1205772,
@@ -6561,7 +6559,7 @@
         "Oct_2021": 1337404
     },
     {
-        "Country/Region": "Taiwan*",
+        "Country/Region": "Taiwan",
         "Latitude": 23.7,
         "Longitude": 121.0,
         "Jan_2020": 55,
