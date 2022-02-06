@@ -171,8 +171,40 @@ let monthValueColumns = [
   const Cuba = transposedMonthValueCoulmns[97]
   const Cyprus = transposedMonthValueCoulmns[98]
   const Czechia = transposedMonthValueCoulmns[99]
-  const Denmark = transposedMonthValueCoulmns[100]
 
+  const Denmark = transposedMonthValueCoulmns[100]
+  const Denmark2 = transposedMonthValueCoulmns[101]
+  const Denmark3 = transposedMonthValueCoulmns[102]
+
+  const DiamondPrincess = transposedMonthValueCoulmns[103]
+  const Djibouti = transposedMonthValueCoulmns[104]
+  const Dominica = transposedMonthValueCoulmns[105]
+  const DominicanRepublic = transposedMonthValueCoulmns[106]
+  const Ecuador = transposedMonthValueCoulmns[107]
+  const Egypt = transposedMonthValueCoulmns[108]
+  const ElSalvador = transposedMonthValueCoulmns[109]
+  const EquatorialGuinea = transposedMonthValueCoulmns[110]
+  const Eritrea = transposedMonthValueCoulmns[111]
+  const Estonia = transposedMonthValueCoulmns[112]
+  const Eswatini = transposedMonthValueCoulmns[113]
+  const Ethiopia = transposedMonthValueCoulmns[114]
+  const Fiji = transposedMonthValueCoulmns[115]
+  const Finland = transposedMonthValueCoulmns[116]
+  
+  const France = transposedMonthValueCoulmns[117]
+  const France2 = transposedMonthValueCoulmns[118]
+  const France3 = transposedMonthValueCoulmns[119]
+  const France4 = transposedMonthValueCoulmns[120]
+  const France5 = transposedMonthValueCoulmns[121]
+  const France6 = transposedMonthValueCoulmns[122]
+  const France7 = transposedMonthValueCoulmns[123]
+  const France8 = transposedMonthValueCoulmns[124]
+  const France9 = transposedMonthValueCoulmns[125]
+  const France10 = transposedMonthValueCoulmns[126]
+  const France11 = transposedMonthValueCoulmns[127]
+  const France12 = transposedMonthValueCoulmns[128]
+
+  
 
 
 // Plots functuion
