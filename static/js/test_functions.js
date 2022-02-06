@@ -51,13 +51,4 @@ function getPlot(country) {
   Plotly.newPlot("myPlot", data1, layout);
 }  
 
-function AppendArray(arr1, arr2){
-  for (i=0 ; i<jan2020.length ;i++){ 
-  } 
-  arr1.push(jan2020[i], feb2020[i])
-  return arr1;
-}
-
-let guess = AppendArray(jan2020, feb2020)
-console.log(guess)
 

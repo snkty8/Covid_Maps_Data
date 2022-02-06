@@ -56,4 +56,7 @@ let Albania = []
 Albania.push(jan2020[1], feb2020[1], march2020[1], april2020[1], may2020[1], june2020[1], july2020[1], aug2020[1], sep2020[1], oct2020[1], nov2020[1], dec2020[1],jan2021[1], feb2021[1], march2021[1], april2021[1], may2021[1], june2021[1], july2021[1], aug2021[1], sep2021[1], oct2021[1])
 
 let Algeria = []
-Algeria.push(jan2020[2], feb2020[2], march2020[2], april2020[2], may2020[2], june2020[2], july2020[2], aug2020[2], sep2020[2], oct2020[2], nov2020[2], dec2020[2],jan2021[2], feb2021[2], march2021[2], april2021[2], may2021[2], june2021[2], july2021[2], aug2021[2], sep2021[1], oct2021[2])
+Algeria.push(jan2020[2], feb2020[2], march2020[2], april2020[2], may2020[2], june2020[2], july2020[2], aug2020[2], sep2020[2], oct2020[2], nov2020[2], dec2020[2],jan2021[2], feb2021[2], march2021[2], april2021[2], may2021[2], june2021[2], july2021[2], aug2021[2], sep2021[3], oct2021[2])
+
+let Andorra = []
+Andorra.push(jan2020[3], feb2020[3], march2020[3], april2020[3], may2020[3], june2020[3], july2020[3], aug2020[3], sep2020[3], oct2020[3], nov2020[3], dec2020[3],jan2021[3], feb2021[3], march2021[3], april2021[3], may2021[3], june2021[3], july2021[3], aug2021[3], sep2021[3], oct2021[3])
