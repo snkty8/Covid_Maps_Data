@@ -27,4 +27,4 @@
 // // Display using Plotly
 // Plotly.newPlot("myPlot", data1, layout);
 
-getPlot(US)
+getPlot(Afghanistan1)
